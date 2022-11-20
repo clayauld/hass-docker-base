@@ -4,6 +4,7 @@ ARG BUILD_FROM
 # aarch64: arm64v8/alpine:${VERSION}
 # armv7: arm32v7/alpine:${VERSION}
 # armhf: arm32v6/alpine:${VERSION}
+# riscv64: riscv64/alpine:${VERSION}
 
 FROM ${BUILD_FROM}
 
