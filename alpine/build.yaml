@@ -1,4 +1,4 @@
-image: clayauld/homeassistant-{arch}-base
+image: clayauld/hass-{arch}-base
 shadow_repository: 192.168.6.53:5000
 build_from:
   aarch64: "arm64v8/alpine:"

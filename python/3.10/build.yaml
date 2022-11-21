@@ -1,4 +1,4 @@
-image: clayauld/homeassistant-{arch}-base-python
+image: clayauld/hass-{arch}-base-python
 shadow_repository: 192.168.6.53:5000
 build_from:
   aarch64: "homeassistant/aarch64-base:"
@@ -6,7 +6,7 @@ build_from:
   armhf: "homeassistant/armhf-base:"
   amd64: "homeassistant/amd64-base:"
   i386: "homeassistant/i386-base:"
-  riscv64: "clayauld/homeassistant-riscv64-base"
+  riscv64: "clayauld/hass-riscv64-base:"
 codenotary:
   signer: clayton@clayauld.com
   base_image: clayton@clayauld.com
