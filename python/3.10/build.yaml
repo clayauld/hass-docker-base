@@ -8,7 +8,7 @@ build_from:
   i386: "homeassistant/i386-base:"
   riscv64: "clayauld/homeassistant-riscv64-base"
 codenotary:
-  ssigner: clayton@clayauld.com
+  signer: clayton@clayauld.com
   base_image: clayton@clayauld.com
 args:
   PYTHON_VERSION: 3.10.7
